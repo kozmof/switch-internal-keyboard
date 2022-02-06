@@ -9,7 +9,7 @@ Release:	21.04
 Codename:	hirsute
 ```
 
-## Knowing issues
+## Known issues
 - `disable -> enable -> input by an internal keyboard` may cause a problem of freezing a mouse cursor by a touchpad. To fix this problem, check a `xorg.conf` file exists in `/etc/X11`. If there is not the file, touch it and add a setting as follows, then restart the OS.
 ```
 Section "InputClass"
